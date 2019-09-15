@@ -1,0 +1,23 @@
+{
+  "name": "simple-colors-scss",
+  "version": "0.0.4",
+  "description": "Simple color management for SCSS",
+  "main": "_core.scss",
+  "scripts": {
+    "test": "test",
+    "create": "cp _colors.scss ../../"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billiebobbel23/simple-colors-scss-npm.git"
+  },
+  "keywords": [
+    "scss", "css", "color", "colour", "color management", "design systems", "modular", "tiny"
+  ],
+  "author": "Ralph van Barneveld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billiebobbel23/simple-colors-scss-npm/issues"
+  },
+  "homepage": "https://github.com/billiebobbel23/simple-colors-scss-npm#readme"
+}

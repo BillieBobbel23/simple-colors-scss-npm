@@ -1,0 +1,12 @@
+@import "colors";
+
+// simple-colors, two maps and a function
+// ---
+@function color($key) {
+  @if( map-has-key($colors, $key)) {
+    @return map-get($colors, $key);
+  } @else {
+    @debug "Unknown color: `#{$key}` found, value could not be set";
+    @return null;
+  }
+}

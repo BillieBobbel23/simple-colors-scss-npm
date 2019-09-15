@@ -1,0 +1,12 @@
+// Empty theme
+$colors: (
+  'white': #FFF,
+  'black': #000,
+  'hot-pink':  #ff69b4
+);
+$bindings: (
+  'test': color('hot-pink')
+);
+
+// Combine the two maps
+$colors: map-merge($colors, $bindings);
